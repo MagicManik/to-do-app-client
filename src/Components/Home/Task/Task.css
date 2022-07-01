@@ -1,0 +1,43 @@
+.task-body {
+    padding: 20px 16px;
+    border-radius: 18px;
+    box-shadow: 0px 2px 70px 0px rgb(110 130 208 / 18%);
+    height: 250px;
+    position: relative;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-delete-btn {
+    padding: 0;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    background-color: #fce8e6;
+    color: #d93025;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.edit-button {
+    font-size: 16px;
+    color: rgb(36, 124, 255);
+    background-color: #e7e6fc;
+}
+
+.linethrough {
+    text-decoration: line-through;
+}
+
+.task-complete-btn {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
+    width: 60%;
+}

@@ -1,0 +1,89 @@
+.bg {
+    background: linear-gradient(107.07deg, #684efb -6.64%, #5a00dd 89.11%);
+}
+
+.task-container {
+    width: 70%;
+    margin: 60px auto;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #fff;
+    color: #383835;
+    box-shadow: 0 30px 80px 0 rgb(55 84 170 / 10%);
+    /* box-shadow: 0px 2px 70px 0px rgb(110 130 208 / 18%); */
+}
+
+.task-title {
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #6644f7;
+
+}
+
+
+.task-input-field {
+    width: 70%;
+    display: block;
+    margin: 8px auto;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    outline: rgb(255, 220, 220);
+}
+
+
+.description-input-field {
+    width: 70%;
+    height: 60px;
+    display: block;
+    margin: 8px auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #d6d6d6;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    outline: rgb(255, 220, 220);
+}
+
+
+.task-input-field:focus {
+    border-color: #958bef;
+    /* box-shadow: 0 0 0 3px rgba(153, 29, 255, 0.25); */
+    color: rgb(104, 104, 104);
+}
+
+
+.add-task-button {
+    width: 50%;
+    display: block;
+    margin: 40px auto;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(335.64deg, #ff589b -19.22%, #ff136f 118.87%);
+    border: none;
+    border-radius: 40px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.add-task-button:hover {
+    background: linear-gradient(45deg, #ff35b4, #ff193f);
+}
+
+
+@media screen and (max-width: 576px) {
+    .task-container {
+        margin: 35px auto;
+        width: 91%;
+    }
+
+    .task-input-field {
+        width: 91%;
+    }
+}

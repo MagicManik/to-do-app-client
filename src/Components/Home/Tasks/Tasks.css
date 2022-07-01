@@ -1,0 +1,43 @@
+.tasks-bg {
+    background-color: #f5f7ff;
+    padding: 100px;
+}
+
+.tasks-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+}
+
+.task-complete-btn {
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
+    background-color: #1a73e8;
+    color: #f5f7ff;
+    border-radius: 7px;
+    padding: 10px 45px;
+}
+
+
+.task-complite-btn:hover {
+    background-color: #1765cc;
+}
+
+
+@media screen and (max-width: 576px) {
+    .tasks-container {
+        grid-template-columns: 1fr;
+    }
+
+    .tasks-bg {
+        padding: 16px;
+    }
+
+    .task-complete-btn {
+        margin: 40px auto;
+    }
+}

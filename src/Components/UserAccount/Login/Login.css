@@ -1,0 +1,145 @@
+.sign-in {
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 600px;
+}
+
+.sign-in img {
+    width: 100%;
+}
+
+.form-container {
+    width: 380px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #220768;
+}
+
+.form-title {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.error-message {
+    color: red;
+    text-align: left;
+    font-weight: bold;
+}
+
+.form-submit {
+    width: 300px;
+    height: 40px;
+    margin: auto 40px !important;
+    background-color: yellowgreen;
+    color: #220768;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.form-submit:hover {
+    background-color: green;
+    color: white;
+}
+
+.form-container p {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.form-link {
+    text-decoration: none;
+    color: #2784cf !important;
+}
+
+.divider-line {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 354px;
+    height: 20px;
+}
+
+.line {
+    width: 145px;
+    height: 0px;
+    border: 1px solid #95A0A7;
+}
+
+.google-sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #95A0A7;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto;
+}
+
+.google-sign img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.google-sign p {
+    color: #220768;
+}
+
+
+
+/* ============= Media Query ============ */
+/* ====================================== */
+
+/* ==== Mobile Device ==== */
+
+@media only screen and (max-width: 480px) {
+    .sign-in {
+        width: 370px;
+        margin: 0 2px;
+        padding: 5px !important;
+    }
+
+    .image-container {
+        display: none;
+    }
+
+    .form-container {
+        width: 360px;
+        margin: 0;
+    }
+}
