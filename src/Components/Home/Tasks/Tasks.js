@@ -5,7 +5,7 @@ import './Tasks.css';
 
 const Tasks = () => {
 
-    const [tasks, setTasks] = useTasks();
+    const [tasks] = useTasks();
 
     return (
         <section className='tasks-bg'>

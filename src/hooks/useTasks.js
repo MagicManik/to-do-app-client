@@ -11,7 +11,7 @@ const useTasks = () => {
 
     useEffect(() => {
 
-        fetch(`http://localhost:5000/tasks?email=${email}`)
+        fetch(`https://upper-parliament-00286.herokuapp.com/tasks?email=${email}`)
             .then(res => res.json())
             .then(data => setTasks(data));
 

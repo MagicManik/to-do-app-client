@@ -18,7 +18,7 @@ const AddTask = () => {
 
         const task = { name, description, email };
 
-        fetch('http://localhost:5000/tasks', {
+        fetch('https://upper-parliament-00286.herokuapp.com/tasks', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

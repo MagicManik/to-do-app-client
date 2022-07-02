@@ -26,6 +26,8 @@ const Header = () => {
                             user ?
                                 <>
                                     <Link to='/todo'>To Do</Link>
+                                    <Link to='/calendar'>Calendar</Link>
+                                    <Link to='/complete'>Complete</Link>
                                     <button className='sign-out' onClick={handleSignOut}>Sign Out</button>
                                 </>
                                 :
